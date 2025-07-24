@@ -76,6 +76,11 @@ If you want to run the project locally, you'll need:
 - React JS
 - JavaScript 
 
+## Collaboraters
+  -Marcy Kilonzo
+  -Mark Wanainaina
+  -Rooney Alex
+
 ## License
 
 MIT License
