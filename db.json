@@ -1,0 +1,25 @@
+{
+  "puzzles": [
+    {
+      "id": 1,
+      "answer": "key",
+      "nextRoom": "2",
+      "description": "A locked door with an inscription: 'The tool to freedom is a three-letter word.'",
+      "hint": "Think of something that unlocks doors."
+    },
+    {
+      "id": 2,
+      "answer": "code",
+      "nextRoom": "3",
+      "description": "A keypad requires a four-letter word related to programming.",
+      "hint": "What’s another word for writing software?"
+    },
+    {
+      "id": 3,
+      "answer": "riddle",
+      "nextRoom": "victory",
+      "description": "A note says: 'I speak without a mouth and hear without ears. What am I?'",
+      "hint": "The answer is a word that describes a puzzle itself."
+    }
+  ]
+}
