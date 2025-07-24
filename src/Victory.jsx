@@ -10,7 +10,7 @@ function Victory() {
     localStorage.removeItem('currentRoom');
     const startTime = localStorage.getItem('startTime');
     if (startTime) {
-      const endTime = Date.now();
+      const endTime =  Date.now();
       const timeTaken = (endTime - parseInt(startTime)) / 1000; // Time in seconds
       setCompletionTime(timeTaken);
       localStorage.removeItem('startTime'); // Clean up

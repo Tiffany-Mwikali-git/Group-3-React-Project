@@ -97,7 +97,7 @@ function Room() {
           <button onClick={handleResetProgress} className="reset-btn">Reset Progress</button>
         </>
       ) : (
-        <p>Puzzle not found. Redirecting...</p>
+        <p>Puzzle not found! Redirecting...</p>
       )}
     </div>
   );
