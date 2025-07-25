@@ -6,7 +6,7 @@ import Victory from './components/Victory';
 function App() {
   return (
     <Routes>
-      <Route index element={<Intro />} />
+      <Route path = "/" element={<Intro />} />
       <Route path='/room/:id' element={<Room />} />
       <Route path="/victory" element={<Victory />} />
     </Routes>
