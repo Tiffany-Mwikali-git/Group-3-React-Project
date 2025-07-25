@@ -14,12 +14,12 @@ function Room() {
 
   useEffect(() => {
     console.log('Fetching puzzle for roomId:', roomId);
-    if ([1, 2, 3].includes(roomId)) {
+    if (!['1', '2', '3'].includes(roomId)) {
       console.log('Invalid roomId, redirecting to /');
       return 
     }
     setIsLoading(true);
-    fetch('http://localhost:3000/puzzles/${roomId}')
+    fetch(`http://localhost:3000/puzzles/${roomId}`)
       .then((response) => {
         if (!response.ok) throw new Error('Puzzle not found');
         return response.json();
