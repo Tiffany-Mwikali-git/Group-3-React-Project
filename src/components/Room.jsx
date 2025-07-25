@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import '../index.css';
+const URL = 'https://json-server-template-kta1.onrender.com'
 
 function Room() {
 
