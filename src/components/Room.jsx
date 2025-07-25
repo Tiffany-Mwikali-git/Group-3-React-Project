@@ -19,7 +19,7 @@ function Room() {
       return 
     }
     setIsLoading(true);
-    fetch('http://localhost:3000/puzzles/${roomId}')
+    fetch(`http://localhost:3000/puzzles/${roomId}`)
       .then((response) => {
         if (!response.ok) throw new Error('Puzzle not found');
         return response.json();
