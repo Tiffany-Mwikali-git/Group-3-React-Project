@@ -1,8 +1,5 @@
 # Escape Room 
 
-#### A simple Goal application built using React JS 
-
-#### By **Tiffany Mwikali**
 
 ## Description
 
@@ -28,11 +25,12 @@ the qeustion is answed correctly,you are allowed to go the next level.
 
 Visit the deployed application at:
 
-The live site allows you to: 
+The live site allows you to: https://group-3-react-project.netlify.app/
 
-- Browse through the list of all goals
-- Deposit some money
-- Add a new goal
+- Browse through the rooms parts
+- Write the correct ansewr for the question
+- Select the hint part
+- Reset the game
 
 ### Local Development
 
