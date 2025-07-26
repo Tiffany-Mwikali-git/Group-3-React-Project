@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
 import '../index.css';
+const URL = 'https://puzzles-backend-xk3z.onrender.com'
 
 function Room() {
 
@@ -19,7 +20,7 @@ function Room() {
       return 
     }
     setIsLoading(true);
-    fetch(`http://localhost:3000/puzzles/${roomId}`)
+    fetch(`${URL}/puzzles/${roomId}`)
       .then((response) => {
         if (!response.ok) throw new Error('Puzzle not found');
         return response.json();
